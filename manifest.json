@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "chrome-pathofexile-trade",
+  "version": "0.0.0",
+  "description": "qol",
+
+  "content_scripts": [
+    {
+      "css": ["style.css"],
+      "js": ["content.js"],
+      "matches": ["https://www.pathofexile.com/trade/*"]
+    }
+  ]
+}
